@@ -5,3 +5,24 @@ h2 {
 li {
     font-family: 'Sarabun', sans-serif;
 }
+
+.img-patient{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+}
+
+table {
+    margin-left: 50px;
+}
+
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    padding-left: 1px;
+  }
