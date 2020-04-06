@@ -23,6 +23,6 @@ table {
   
   /* Create three equal columns that sits next to each other */
   .column {
-    flex: 20%;
+    flex: 0.2px;
     padding-left: 1px;
   }
