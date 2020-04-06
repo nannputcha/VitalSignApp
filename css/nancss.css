@@ -26,3 +26,15 @@ table {
     flex: 0.2px;
     padding-left: 1px;
   }
+
+  footer {
+      background-color: #009688;
+      padding: 5%;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      line-height: 2;
+
+  }
+
