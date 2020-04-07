@@ -1,0 +1,76 @@
+
+
+h2 {
+    font-family: 'Mitr', sans-serif;
+}
+
+h3 {
+    font-family: 'Mitr', sans-serif;
+    color: #4f4f4f;
+}
+
+li {
+    font-family: 'Sarabun', sans-serif;
+    margin-left: 2%;
+    line-height: 1.8;
+}
+
+p{
+    font-family: 'Sarabun', sans-serif;
+}
+
+dd{
+    line-height: 1.8;
+}
+
+dt{
+    line-height: 3;
+
+}
+
+img {
+    padding: 20px;
+}
+
+.img-patient{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+.img-small {
+    width: 60%;
+}
+
+table {
+    margin-left: 50px;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
+}
+
+.row {
+    display: flex;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 0.2px;
+    padding-left: 1px;
+  }
+
+  footer {
+      background-color: #009688;
+      font-family: 'Sarabun', sans-serif;
+      padding: 5%;
+      width: 100%;
+      color: #ffffff;
+      text-align: center;
+      font-size: 25px;
+      line-height: 2;
+      width: 100%;
+
+  }
+
