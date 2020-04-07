@@ -2,14 +2,23 @@ h2 {
     font-family: 'Mitr', sans-serif;
 }
 
+h3 {
+    font-family: 'Mitr', sans-serif;
+    color: #4f4f4f;
+}
+
 li {
     font-family: 'Sarabun', sans-serif;
+    margin-left: 2%;
 }
 
 p{
     font-family: 'Sarabun', sans-serif;
 }
 
+dd{
+    line-height: 1.8;
+}
 
 .img-patient{
     display: block;
