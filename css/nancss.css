@@ -6,6 +6,11 @@ li {
     font-family: 'Sarabun', sans-serif;
 }
 
+p{
+    font-family: 'Sarabun', sans-serif;
+}
+
+
 .img-patient{
     display: block;
     margin-left: auto;
@@ -15,6 +20,10 @@ li {
 
 table {
     margin-left: 50px;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    
 }
 
 .row {
@@ -29,11 +38,12 @@ table {
 
   footer {
       background-color: #009688;
+      font-family: 'Sarabun', sans-serif;
       padding: 5%;
       width: 100%;
       color: white;
       text-align: center;
-      font-size: 28px;
+      font-size: 25px;
       line-height: 2;
 
   }
