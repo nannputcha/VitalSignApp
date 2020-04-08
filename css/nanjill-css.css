@@ -17,6 +17,7 @@ h3 {
 h6{
   padding-top: 10px;
     text-align: center;
+    color: #727272;
 }
 
 li {
@@ -41,11 +42,7 @@ dt{
 
 }
 
-.img-position{
-  margin-left: auto;
-  margin-right: auto;
 
-}
 
 .img-small {
     width: 60%;
@@ -102,6 +99,12 @@ table {
       
     }
 
+    img.img-patient{
+      width: 45%;
+      margin-left: auto;
+  margin-right: auto;
+    }
+
     
   }
 
@@ -125,6 +128,16 @@ table {
       margin: 2%;
       width: 50%;
     }
+
+    p{
+      padding-bottom: 20px;
+    }
+    img.img-patient{
+      width: 35%;
+      margin-left: auto;
+  margin-right: auto;
+    }
+    
 
     
   }
