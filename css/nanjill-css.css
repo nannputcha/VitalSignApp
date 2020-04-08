@@ -2,6 +2,7 @@
 
 h2 {
     font-family: 'Mitr', sans-serif;
+    text-align: center;
 }
 
 h3 {
@@ -9,8 +10,9 @@ h3 {
     color: #4f4f4f;
 }
 
-h5{
-    text-align: right;
+h6{
+  padding-top: 10px;
+    text-align: center;
 }
 
 li {
@@ -21,6 +23,7 @@ li {
 
 p{
     font-family: 'Sarabun', sans-serif;
+    text-align: center;
 }
 
 dd{
@@ -32,11 +35,10 @@ dt{
 
 }
 
-.img-patient{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+.img-position{
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .img-small {
@@ -65,16 +67,33 @@ table {
     padding-left: 1px;
   }
 
-  footer {
+  
+  
+  @media screen and (max-width: 600px) {
+    footer {
       background-color: #009688;
-      font-family: 'Sarabun', sans-serif;
-      padding: 5%;
+      padding: 10%;
       width: 100%;
+      font-size: 16px;
+      font-family: 'Sarabun', sans-serif;
       color: #ffffff;
       text-align: center;
-      font-size: 25px;
       line-height: 2;
-      width: 100%;
-
+    }
   }
 
+  
+
+  
+@media screen and (min-width: 601px) and (max-width: 1440px) {
+    footer {
+      background-color: #009688;
+      padding: 5%;
+      width: 100%;
+      font-size: 22px;
+      font-family: 'Sarabun', sans-serif;
+      color: #ffffff;
+      text-align: center;
+      line-height: 2;
+    }
+  }
